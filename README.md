@@ -1,6 +1,6 @@
 # Portfolio of Sajad Hussain
 
-<img src ="https://github.com/CodeVinayak/CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" />
+<!-- <img src ="" /> -->
  
 This project was created with CRA (Create React App)
 
@@ -10,6 +10,11 @@ This is my portfolio website to introduce myself, here I put my skills, projects
 - React
 - Typescript
 - Styled Components
+- React Native
+- Xcode
+- Android Studio
+- Redux
+- Redux Toolkit
  
 ## To run this project:
 - yarn install
