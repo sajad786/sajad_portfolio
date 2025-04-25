@@ -23,12 +23,9 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            👋 Hi there!, I'm a seasoned React Native developer with a keen eye
-            for detail and a passion for crafting mobile apps that make a real
-            impact. With almost 8 years in the IT industry and a strong focus on
-            React Native for the past 7 years, I've had the pleasure of working
-            on and maintaining large-scale, complex mobile applications that
-            combine functionality with seamless user experiences.
+          👋 Hi there! I'm a professional React Native developer with a keen eye for detail and a passion 
+          for building mobile apps that make a real impact. With nearly 4 years of experience in the IT industry,
+           and a strong focus on React Native throughout, I've had the opportunity to work on and maintain large-scale, complex mobile applications that blend robust functionality with seamless user experiences.
           </p>
         </ScrollAnimation>
         <ScrollAnimation

@@ -152,8 +152,8 @@ export function Project() {
             <div className="body">
               <h3>Perucabs - taxi Flow application</h3>
               <p>
-              Pick and Drop flow ;- Designed for customers and drivers . implemented razorPay payment integration
-              Deployed application on play store and app store connect.
+                Pick and Drop flow ;- Designed for customers and drivers . implemented razorPay payment integration
+                Deployed application on play store and app store connect.
               </p>
             </div>
             <footer>
@@ -202,11 +202,11 @@ export function Project() {
             </header>
             <div className="body">
               <h3>
-              RoyoOrders / RoyoDispatcher(Product)
+                RoyoOrders / RoyoDispatcher(Product)
               </h3>
               <p>
-              Multiple Vendor Modes : The royoOrders app supports various vendor modes, providing a versatile experience to customers: like Takeaway, Dine-in, Appointment, P2P, book and ride etc
-              RoyoDispatcher has multiple functions like Order Assignment, Driver Acceptance, Navigation, Order Details, Real-time Tracking, Communication etc
+                Multiple Vendor Modes : The royoOrders app supports various vendor modes, providing a versatile experience to customers: like Takeaway, Dine-in, Appointment, P2P, book and ride etc
+                RoyoDispatcher has multiple functions like Order Assignment, Driver Acceptance, Navigation, Order Details, Real-time Tracking, Communication etc
               </p>
             </div>
             <footer>
@@ -256,11 +256,11 @@ export function Project() {
             <div className="body">
               <h3>Tailery - House constructional Mamagenmet </h3>
               <p>
-              This application enables both group and one-on-one messaging for users involved in specific house construction projects, with real-time message tracking powered by sockets. The dashboard provides a clear view of the various project stages, helping users stay informed on progress. Additionally, the admin can post updates, which other users can engage with through likes and comments.
+                This application enables both group and one-on-one messaging for users involved in specific house construction projects, with real-time message tracking powered by sockets. The dashboard provides a clear view of the various project stages, helping users stay informed on progress. Additionally, the admin can post updates, which other users can engage with through likes and comments.
               </p>
             </div>
             <footer>
-            <ul className="tech-list">
+              <ul className="tech-list">
                 <li>React Native</li>
                 <li>Javascript</li>
                 <li>Android studio | Xcode </li>
@@ -299,13 +299,107 @@ export function Project() {
             <div className="body">
               <h3>xborne - Ride and Delivery Flow</h3>
               <p>
-                 Application was mainly develpoed for Delivery and Ride flow. Google map is implented for real time tracking of the Driver for a delivery and trip. payments gateways like RazorPay - stripe implemeted. 
+                Application was mainly develpoed for Delivery and Ride flow. Google map is implented for real time tracking of the Driver for a delivery and trip. payments gateways like RazorPay - stripe implemeted.
               </p>
             </div>
             <footer>
-            <ul className="tech-list">
+              <ul className="tech-list">
                 <li>React Native</li>
                 <li>Javascript</li>
+                <li>Android studio | Xcode </li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Drivere - Ride and Delivery Flow</h3>
+              <p>
+                Developed and deployed the Driver application to both the App Store and Play Console as part of an e-commerce ecosystem. Key features include:
+                Overlay Popup Module: Implemented a native module to display overlay popups for new job requests, even when the driver is using other applications.
+                Mapbox Integration: Enabled real-time driver tracking and navigation using Mapbox for a seamless delivery experience.
+
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React Native</li>
+                <li>Javascript</li>
+                <li>Android studio | Xcode </li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>ExplorePedia – Social Media & Knowledge Sharing App</h3>
+              <p>
+
+                Built a hybrid social media and Wikipedia-style application combining user interaction with informative content. Key functionalities include:
+                Endless Scrolling Feed: Implemented Instagram-like infinite scrolling for a dynamic feed of videos and images.
+                Social Features: Developed core interactions such as follow/unfollow users, post creation, commenting, editing, deleting, and reporting content.
+                Content Expansion: Added support for publishing and browsing articles and blogs, enriching the platform with informative content.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React Native</li>
+                <li>Typescript</li>
                 <li>Android studio | Xcode </li>
               </ul>
             </footer>
