@@ -1,18 +1,15 @@
-import { Container } from "./styles";
-import Sajadpic from "../../assets/sajadpic.png";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
+import ScrollAnimation from "react-animate-on-scroll";
 import androidStudioIcon from "../../assets/android-studio-icon.svg";
-import xcode from "../../assets/Xcode.svg";
+import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import cssIcon from "../../assets/css-icon.svg";
+import htmlIcon from "../../assets/html-icon.svg";
+import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
+import Sajadpic from "../../assets/sajadpic.png";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
-import ScrollAnimation from "react-animate-on-scroll";
+import xcode from "../../assets/Xcode.svg";
+import { Container } from "./styles";
 
 export function About() {
   return (
