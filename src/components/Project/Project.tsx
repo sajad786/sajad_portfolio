@@ -9,6 +9,157 @@ export function Project() {
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
+
+         <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a
+                  href="https://play.google.com/store/search?q=pinbest&c=apps&hl=en_IN"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Pinbest Customer </h3>
+              <p>
+                Architected and developed the complete platform from scratch; a live service marketplace with thousands of
+active customers across Customer and Specialist apps.`\n`
+• Customers post service requests across multiple categories; specialists browse and submit competitive
+quotes with private in-app messaging between the specialist and service owner.
+• Implemented end-to-end task completion flow: service owner reviews quotes, accepts a preferred specialist,
+and tracks progress through a structured task lifecycle.
+{/* • Integrated category-specific In-App Purchase (IAP) monetization: each post creation requires the user to
+purchase a one-time consumable product plan or an active subscription for that category. */}
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React Native</li>
+                <li>Javascript</li>
+                <li>Android studio | Xcode </li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+            <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Drivere - Ride and Delivery Flow</h3>
+              <p>
+                Developed and deployed the Driver application to both the App Store and Play Console as part of an e-commerce ecosystem. Key features include:
+                Overlay Popup Module: Implemented a native module to display overlay popups for new job requests, even when the driver is using other applications.
+                Mapbox Integration: Enabled real-time driver tracking and navigation using Mapbox for a seamless delivery experience.
+
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React Native</li>
+                <li>Javascript</li>
+                <li>Android studio | Xcode </li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        
+          <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg>
+              <div className="project-links">
+                {/* <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /> </a> */}
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.sabroson.orders"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit play store" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>
+                Sabroson User - Eccomerce application | Delivery & Ride flow
+              </h3>
+              <p>
+                This application is developed in React native and is available
+                on both playstore and app store. The purpose of this application
+                to meet the needs of users in terms of grocerry Delivery, food
+                delivery or even ride booking for trip.
+              </p>
+            </div>
+
+            <footer>
+              <ul className="tech-list">
+                <li>React Native</li>
+                <li>Javascript</li>
+                <li>Android studio | Xcode </li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        {/*****************  till here Row comoleted **************** */}
+
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -64,7 +215,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg
@@ -74,41 +225,37 @@ export function Project() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="#23ce6b "
-                strokeWidth="1"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               >
-                <title>Folder</title>{" "}
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                {/* <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /> </a> */}
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.sabroson.orders"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLink} alt="Visit play store" />
+                  <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>
-                Sabroson User - Eccomerce application | Delivery & Ride flow
-              </h3>
+              <h3>ExplorePedia – Social Media & Knowledge Sharing App</h3>
               <p>
-                This application is developed in React native and is available
-                on both playstore and app store. The purpose of this application
-                to meet the needs of users in terms of grocerry Delivery, food
-                delivery or even ride booking for trip.
+
+                Built a hybrid social media and Wikipedia-style application combining user interaction with informative content. Key functionalities include:
+                Endless Scrolling Feed: Implemented Instagram-like infinite scrolling for a dynamic feed of videos and images.
+                Social Features: Developed core interactions such as follow/unfollow users, post creation, commenting, editing, deleting, and reporting content.
+                Content Expansion: Added support for publishing and browsing articles and blogs, enriching the platform with informative content.
               </p>
             </div>
-
             <footer>
               <ul className="tech-list">
                 <li>React Native</li>
-                <li>Javascript</li>
+                <li>Typescript</li>
                 <li>Android studio | Xcode </li>
               </ul>
             </footer>
@@ -288,7 +435,7 @@ export function Project() {
               </svg>
               <div className="project-links">
                 <a
-                  href=""
+                  href="https://play.google.com/store/apps/details?id=com.Xborne.dispatcher&hl=en_IN"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -312,99 +459,10 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
+{/* last row starts from here  */}
 
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Drivere - Ride and Delivery Flow</h3>
-              <p>
-                Developed and deployed the Driver application to both the App Store and Play Console as part of an e-commerce ecosystem. Key features include:
-                Overlay Popup Module: Implemented a native module to display overlay popups for new job requests, even when the driver is using other applications.
-                Mapbox Integration: Enabled real-time driver tracking and navigation using Mapbox for a seamless delivery experience.
 
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>React Native</li>
-                <li>Javascript</li>
-                <li>Android studio | Xcode </li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>ExplorePedia – Social Media & Knowledge Sharing App</h3>
-              <p>
-
-                Built a hybrid social media and Wikipedia-style application combining user interaction with informative content. Key functionalities include:
-                Endless Scrolling Feed: Implemented Instagram-like infinite scrolling for a dynamic feed of videos and images.
-                Social Features: Developed core interactions such as follow/unfollow users, post creation, commenting, editing, deleting, and reporting content.
-                Content Expansion: Added support for publishing and browsing articles and blogs, enriching the platform with informative content.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>React Native</li>
-                <li>Typescript</li>
-                <li>Android studio | Xcode </li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
+       
       </div>
     </Container>
   );
