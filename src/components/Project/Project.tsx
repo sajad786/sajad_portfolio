@@ -79,7 +79,7 @@ purchase a one-time consumable product plan or an active subscription for that c
               </svg>
               <div className="project-links">
                 <a
-                  href=""
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -180,14 +180,14 @@ purchase a one-time consumable product plan or an active subscription for that c
               </svg>
               <div className="project-links">
                 {/* <a
-                  href=""
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
                 </a> */}
                 <a
-                  href=""
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -234,7 +234,7 @@ purchase a one-time consumable product plan or an active subscription for that c
               </svg>
               <div className="project-links">
                 <a
-                  href=""
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -281,14 +281,14 @@ purchase a one-time consumable product plan or an active subscription for that c
               </svg>
               <div className="project-links">
                 {/* <a
-                  href=""
+                  href="/"
                   target="\_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
                 </a> */}
                 <a
-                  href=""
+                  href="/"
                   target="\_blank"
                   rel="noreferrer"
                 >
@@ -332,14 +332,14 @@ purchase a one-time consumable product plan or an active subscription for that c
               </svg>
               <div className="project-links">
                 {/* <a
-                  href=""
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
                 </a> */}
                 <a
-                  href=""
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -385,14 +385,14 @@ purchase a one-time consumable product plan or an active subscription for that c
               </svg>
               <div className="project-links">
                 {/* <a
-                  href=""
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visit site" />
                 </a> */}
                 <a
-                  href=""
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
