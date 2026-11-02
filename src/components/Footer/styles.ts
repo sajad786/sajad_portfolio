@@ -14,6 +14,13 @@ export const Container = styled.footer`
     font-size: 2.8rem;
   }
 
+  .footer-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
   p{
     letter-spacing: 0.2rem;
     display: flex;
@@ -22,6 +29,20 @@ export const Container = styled.footer`
     img{
       width: 2.6rem;
       animation: spinning 5s infinite linear;
+    }
+  }
+
+  .privacy-link{
+    color: inherit;
+    font-size: 1.4rem;
+    letter-spacing: 0.08rem;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+
+    &:hover{
+      opacity: 1;
     }
   }
   .social-media{

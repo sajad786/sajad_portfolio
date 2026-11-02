@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Container } from './styles'
 import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
@@ -14,11 +15,14 @@ export function Footer() {
         <span>www.sajad</span>
         <span>hussain.in</span>
       </a>
-      <div>
+      <div className="footer-center">
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
           {/* <span>❤️</span> */}
         </p>
+        <Link to="/privacy-policy" className="privacy-link">
+          Privacy Policy
+        </Link>
       </div>
       <div className="social-media">
         <a
